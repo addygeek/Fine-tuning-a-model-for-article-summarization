@@ -2,6 +2,24 @@
 
 ## Overview
 This project demonstrates the fine-tuning of a pre-trained language model for automatic article summarization using supervised fine-tuning (SFT). The implementation leverages state-of-the-art transformer models to generate concise and coherent summaries of articles while maintaining key information and context.
+## Results Visualizations
+
+The following visualizations provide comprehensive insights into the model's training progress and performance metrics:
+
+### Training Loss Chart
+![Training Loss](results/_train_total_loss.png)
+
+
+### Evaluation Loss Chart
+![Evaluation Loss](results/_eval_total_loss.png)
+
+
+### All Metrics Chart
+![All Metrics Chart](results/All-metrics-chart.png)
+
+
+### Fine-Tune Summary
+![Fine-Tune Summary](results/fine-tune-summary.png)
 
 ## Dataset
 The project uses a curated dataset for training and evaluation:
@@ -59,41 +77,7 @@ The fine-tuned model demonstrates significant improvements in summarization qual
 
 Detailed results and visualizations are available in the results/ directory.
 
-## Results Visualizations
 
-The following visualizations provide comprehensive insights into the model's training progress and performance metrics:
-
-### Training Loss Chart
-![Training Loss](https://raw.githubusercontent.com/addygeek/Fine-tuning-a-model-for-article-summarization/main/results/training_loss.png)
-*Training loss progression throughout the fine-tuning process showing model convergence*
-
-### Evaluation Loss Chart
-![Evaluation Loss](https://raw.githubusercontent.com/addygeek/Fine-tuning-a-model-for-article-summarization/main/results/evaluation_loss.png)
-*Validation loss tracking to monitor overfitting and generalization performance*
-
-### All Metrics Chart
-![All Metrics Chart](https://raw.githubusercontent.com/addygeek/Fine-tuning-a-model-for-article-summarization/main/results/all_metrics_chart.png)
-*Comprehensive view of all evaluation metrics including ROUGE scores, BLEU scores, and loss functions*
-
-### Fine-Tune Summary
-![Fine-Tune Summary](https://raw.githubusercontent.com/addygeek/Fine-tuning-a-model-for-article-summarization/main/results/fine_tune_summary.png)
-*Summary visualization of key training statistics and hyperparameters used during fine-tuning*
-
-### Combined Loss Function
-![Combined Loss Function](https://raw.githubusercontent.com/addygeek/Fine-tuning-a-model-for-article-summarization/main/results/combined_loss_function.png)
-*Combined view of training and validation loss curves for comparative analysis*
-
-### Model Performance Overview
-![Model Performance Overview](https://raw.githubusercontent.com/addygeek/Fine-tuning-a-model-for-article-summarization/main/results/model_performance_overview.png)
-*Overall performance metrics and comparison with baseline models*
-
-### Learning Rate Schedule
-![Learning Rate Schedule](https://raw.githubusercontent.com/addygeek/Fine-tuning-a-model-for-article-summarization/main/results/learning_rate_schedule.png)
-*Visualization of the learning rate schedule used during training*
-
-### Gradient Flow Analysis
-![Gradient Flow Analysis](https://raw.githubusercontent.com/addygeek/Fine-tuning-a-model-for-article-summarization/main/results/gradient_flow_analysis.png)
-*Analysis of gradient flow patterns to ensure proper backpropagation*
 
 ## Project Structure
 ```
@@ -150,3 +134,4 @@ For questions or collaboration opportunities:
 ---
 
 **Note**: This project is for educational and research purposes. Please ensure you have appropriate computational resources for training large language models.
+
